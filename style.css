@@ -1,0 +1,103 @@
+* {
+    background-color: #6D5B87;
+    font-family: "Prompt";
+}
+
+body {
+     margin-left: 33%;
+     margin-right: 33%;
+}
+
+@font-face {
+    font-family: 'Prompt';
+    font-style: normal;
+    font-weight: 200;
+    font-display: swap;
+    src: url(https://fonts.gstatic.com/s/prompt/v5/-W_8XJnvUD7dzB2Cr_sIfWMuQ5Q.woff2) format('woff2');
+    unicode-range: U+0E01-0E5B, U+200C-200D, U+25CC;
+  }
+
+
+.flex-container-1 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin: 20px;
+}
+
+.flex-container-2 {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: flex-start;
+    margin-top: 70px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+.container {
+    background-color: #C6808C;
+    padding: 20px;
+    width: 200px;
+    height: 390px;
+    text-align: center;
+}
+
+form {
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 70px;
+}
+
+input {
+    width: 1020px;
+    height: 40px;
+    background-color: #C6808C;
+    color: #44364B;
+    font-weight: 1000;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+button {
+    margin-left: 5px;
+    background-color: #C6808C;
+    border: none;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+}
+
+a {
+    text-decoration: none;
+    color: #44364B;
+    background-color: #C6808C;
+    font-weight: 1000;
+}
+
+p {
+    background-color: #C6808C;
+}
+
+.heading {
+    color: #44364B;
+    font-weight: 1000;
+}
+
+img {
+    width: 300px;
+}
+
+#digital-clock {
+ width: 1020px;
+ margin-top: 100px;
+ padding-top: 50px;
+ padding-bottom: 50px;
+ font-family: "Prompt";
+ font-size: 50px;
+ font-weight: 1000;
+ text-align: center;
+ box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
+ background-color: #C6808C;
+ color: #44364B;
+}
